@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { MdArrowOutward } from "react-icons/md";
 
-function ProjectCArd({ imgSrc, title, tags, projectLink, classes }) {
+function ProjectCard({ imgSrc, title, tags, projectLink, classes }) {
   return (
     <div
       className={
@@ -39,11 +39,11 @@ function ProjectCArd({ imgSrc, title, tags, projectLink, classes }) {
     </div>
   );
 }
-ProjectCArd.propTypes = {
+ProjectCard.propTypes = {
   imgSrc: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   tags: PropTypes.arrayOf(PropTypes.string).isRequired,
   projectLink: PropTypes.string.isRequired,
   classes: PropTypes.string,
 };
-export default ProjectCArd;
+export default ProjectCard;

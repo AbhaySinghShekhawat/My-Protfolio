@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCArd from "./ProjectCArd";
+import ProjectCard from "./ProjectCard.jsx";
 import img from "../assets/images/productListing.png";
 import img1 from "../assets/images/backery.png";
 import img2 from "../assets/images/weather.png";
@@ -55,7 +55,7 @@ function Project() {
         </h2>
         <div className="grid grid-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,1fr))]">
           {works.map(({ imgSrc, title, tags, projectLink }, index) => (
-            <ProjectCArd
+            <ProjectCard
               key={index}
               imgSrc={imgSrc}
               title={title}
