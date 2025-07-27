@@ -1,6 +1,5 @@
 import React from "react";
-import { ButtonPrimary } from "./Button";
-import { IoIosArrowForward } from "react-icons/io";
+
 import img from "../assets/images/logo.svg";
 
 function Footer() {
@@ -42,12 +41,6 @@ function Footer() {
             <h2 className="headling-1 max-w-[12ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-8  bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent text-4xl leading-tight font-semibold lg:text-[30px] ">
               Let&apos;s work together today!
             </h2>
-            {/* <ButtonPrimary
-              href="mailto:codewithsadee@gmail.com"
-              label="Start project"
-              icon={<IoIosArrowForward />}
-              classes="h-11 bg-sky-400 text-zinc-950 hover:bg-sky-300 cursor-pointer"
-            /> */}
           </div>
           <div className="grid grid-cols-2 gap-4 lg:pl-20">
             <div>
@@ -89,7 +82,7 @@ function Footer() {
           </a>
           <p className="text-zinc-500 text-sm ">
             &copy; {new Date().getFullYear()}{" "}
-            <span className="text-zinc-200">codewithsadee</span>
+            <span className="text-zinc-200">Abhay Singh</span>
           </p>
         </div>
       </div>
