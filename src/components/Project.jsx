@@ -13,7 +13,7 @@ function Project() {
       imgSrc: img,
       title: "Product Listing ",
       tags: ["API", "Development"],
-      projectLink: "https://product-listing-indol.vercel.app/",
+      projectLink: "https://product-listing-three-beta.vercel.app/",
     },
     {
       imgSrc: img1,
