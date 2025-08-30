@@ -6,9 +6,16 @@ import img2 from "../assets/images/weather.png";
 import img3 from "../assets/images/zometo.png";
 import img4 from "../assets/images/figmafile.png";
 import img5 from "../assets/images/spotify.png";
+import img6 from "../assets/images/emailauth.png"
 
 function Project() {
   const works = [
+    {
+      imgSrc: img6,
+      title: "Email authentication",
+      tags:["API","Responsive","Development"],
+      projectLink: "https://email-authentication-u64e.onrender.com/",
+    },
     {
       imgSrc: img,
       title: "Product Listing ",
